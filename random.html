@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Random Fact Page</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="jQuery.js" defer> </script>
+  <script src="random.js"> </script>
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="cocktail.html">Cocktail Search</a>
+    <a href="weather.html">Weather</a>
+    <a class="active" href="random.html">Random Facts</a>
+    <a>Dark Mode<span class="change">OFF</span>
+  </div>
+  <h2>
+    Random facts page<br></h2>
+  <div class="random-card">
+    <p>Random Year:<br> <span id='number'></span></p>
+  </div>
+  <div class="random-card">
+    <p> Random Day:<br> <span id='number2'></span></p>
+  </div>
+  <div class="random-card">
+    <p> Another random day:<br> <span id='number3'></span></p>
+  </div>
+  <div class="random-card">
+  <a onClick="window.location.reload()">Press here to get a new fact</a>
+ <div>
+
+</body>
+
+</html>
